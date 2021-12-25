@@ -1,0 +1,23 @@
+// Aplicando extends al archivo contacto.scss en los button
+
+%button {
+    background-color: $color-rosa;
+    color: blanchedalmond;
+    font-family: $letra-r;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+
+%titulos {
+    color: $color-rosa;
+    font-family: $letra-r;
+    font-size: 2rem;
+    text-shadow: $texto-sombra;
+    margin-bottom: 2rem;
+    @media (min-width: 1280px){
+        font-size: 3rem;
+        margin-bottom: 4rem;
+    }
+}

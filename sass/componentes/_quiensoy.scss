@@ -1,0 +1,25 @@
+@import'../base/listas';
+
+.main__quiensoy{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    @media (min-width: 900px) {
+        flex-direction: row;
+        padding: 1rem;
+        justify-content: space-around;
+    }
+    img{
+        @media (min-width: 580px) {
+            width: 25rem;
+        }
+        @media (min-width: 900px) {
+            margin-right: 2rem;
+        }
+    }
+    p{
+        color: nth($colores, 4); //Aplicando lista de colores de _listas.scss
+        font-family: $letra-p;
+        font-weight: 600;
+    }
+}

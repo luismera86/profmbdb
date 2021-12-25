@@ -1,0 +1,71 @@
+.main__contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__titulo{
+        font-family: $letra-r;
+        color: $color-rosa;
+        text-shadow: $texto-sombra;
+    }
+}
+
+.form{
+    background-color: $color-verde;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    &__nombre{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        &__label{
+            font-family: $letra-r;
+            color: $color-rosa;
+        }
+        &__input{
+            border-radius: 1rem;
+            width: 100%;
+            margin-left: 1rem;
+        }
+    }
+    &__mail{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+        &__label{
+            width: 35%;
+            font-family: $letra-r;
+            color: $color-rosa;
+            margin-right: 1rem;
+        }
+        &__input{
+            border-radius: 1rem;
+            width: 100%;
+        }
+    }
+    &__comentario{
+        &__label{
+            font-family: $letra-r;
+            color: $color-rosa;
+            margin-bottom: 1rem;
+        }
+        &__textarea{
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+            width: 100%;
+        }
+    }
+    &__buttons{
+        display: flex;
+        justify-content: center;
+        &__button{
+            @extend %button;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+
+
+@import'../base/mixin';
+@import'../base/maps';
+
+.main__box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 1280px){
+        height: 33rem;
+    }
+    &__titulo{
+        @include titulos($color-rosa,$letra-r,2rem); // Aplicando mixin del archivo _mixin.scss combinado con _variables.scss
+        text-shadow: $texto-sombra;
+        margin-bottom: 2rem;
+        @media (min-width: 1280px){
+            font-size: 3rem;
+            margin-bottom: 4rem;
+        }
+    }
+    &__secciones{
+        display: flex;
+        flex-direction: column;
+        @media (min-width: 1280px) {
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+        }
+        &__cads{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 2rem;
+            @media (min-width: 1280px) {
+                
+            }
+            h2{
+                color: map-get($secciones, color); //aplicando maps del archivo _maps.scss
+                font-family: map-get($secciones, letra); //aplicando maps del archivo _maps.scss
+                text-shadow: $texto-sombra;
+                margin-bottom: 1rem;
+            }
+            img{
+                width: 15rem;
+                border-radius: 1rem;
+            }
+        }
+    }
+}
