@@ -1,8 +1,5 @@
 
 
-@import'../base/mixin';
-@import'../base/maps';
-
 .main__box{
     width: 100%;
     display: flex;
@@ -13,13 +10,7 @@
         height: 33rem;
     }
     &__titulo{
-        @include titulos($color-rosa,$letra-r,2rem); // Aplicando mixin del archivo _mixin.scss combinado con _variables.scss
-        text-shadow: $texto-sombra;
-        margin-bottom: 2rem;
-        @media (min-width: 1280px){
-            font-size: 3rem;
-            margin-bottom: 4rem;
-        }
+        @extend %titulos;
     }
     &__secciones{
         display: flex;
@@ -38,8 +29,8 @@
                 
             }
             h2{
-                color: map-get($secciones, color); //aplicando maps del archivo _maps.scss
-                font-family: map-get($secciones, letra); //aplicando maps del archivo _maps.scss
+                color: $color-rosa;
+                font-family: $letra-r;
                 text-shadow: $texto-sombra;
                 margin-bottom: 1rem;
             }

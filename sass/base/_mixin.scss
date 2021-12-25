@@ -1,7 +1,0 @@
-// Aplicando mixin a modo de ejemplo, se utiliza en _actividadesyrecursos.scss
-
-@mixin titulos ($color, $fuente, $fontsize){
-    color: $color;
-    font-family: $fuente;
-    font-size: $fontsize;
-}

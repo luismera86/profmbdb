@@ -1,4 +1,4 @@
-@import'../base/listas';
+
 
 .main__quiensoy{
     display: flex;
@@ -18,7 +18,7 @@
         }
     }
     p{
-        color: nth($colores, 4); //Aplicando lista de colores de _listas.scss
+        color: $color-texto-r;
         font-family: $letra-p;
         font-weight: 600;
     }
