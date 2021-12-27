@@ -1,0 +1,44 @@
+@import'../base/variables';
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 30rem;
+    align-items: center;
+    @media (min-width: 500px) {
+        height: 40rem;
+    }
+    @media (min-width: 800px) {
+        height: 45rem;
+    }
+    &__carrusel{
+        margin-bottom: 3rem;
+        @media (min-width: 500px) {
+            align-items: center;
+            width: 30rem !important;
+        }
+        @media (min-width: 700px) {
+            align-items: center;
+            width: 43rem !important;
+        }
+        @media (min-width: 950px) {
+            align-items: center;
+            margin-top: 3rem;
+            width: 50rem !important;
+        }
+        }
+    }
+    h2{
+        color: #EF7B8E;
+        font-family: $letra-r;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        @media (min-width: 992px) {
+            font-size: 2rem;
+        }
+        
+    }

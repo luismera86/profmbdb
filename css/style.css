@@ -1,3 +1,81 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  height: 30rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 500px) {
+  .main {
+    height: 40rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .main {
+    height: 45rem;
+  }
+}
+
+.main__carrusel {
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 500px) {
+  .main__carrusel {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 30rem !important;
+  }
+}
+
+@media (min-width: 700px) {
+  .main__carrusel {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 43rem !important;
+  }
+}
+
+@media (min-width: 950px) {
+  .main__carrusel {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 3rem;
+    width: 50rem !important;
+  }
+}
+
+h2 {
+  color: #EF7B8E;
+  font-family: "Rammetto One", cursive;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 992px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
 .main__box {
   width: 100%;
   display: -webkit-box;
@@ -55,6 +133,22 @@
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 2rem;
+  width: 15rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #2d5a4b;
+}
+
+@media (min-width: 1280px) {
+  .main__box__secciones__cads {
+    color: white;
+  }
+  .main__box__secciones__cads:hover p {
+    width: 15rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #2d5a4b;
+  }
 }
 
 .main__box__secciones__cads h2 {
@@ -62,6 +156,7 @@
   font-family: "Rammetto One", cursive;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 1rem;
+  font-size: 1.7rem;
 }
 
 .main__box__secciones__cads img {
@@ -283,41 +378,6 @@ footer img:hover {
   color: #d6526c !important;
 }
 
-.main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
-  width: 100%;
-  height: 60%;
-}
-
-.main__carrusel {
-  margin-bottom: 3rem;
-}
-
-.main h2 {
-  color: #EF7B8E;
-  font-family: "Rammetto One", cursive;
-  text-align: center;
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
-@media (min-width: 992px) {
-  .main h2 {
-    font-size: 2rem;
-  }
-}
-
 .main__quiensoy {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -441,6 +501,9 @@ footer img:hover {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 2rem;
+  width: 15rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .main__box__secciones__cads h2 {
@@ -448,6 +511,7 @@ footer img:hover {
   font-family: "Rammetto One", cursive;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 1rem;
+  font-size: 1.7rem;
 }
 
 .main__box__secciones__cads img {
