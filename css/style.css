@@ -147,7 +147,7 @@ h2 {
     width: 15rem;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    color: #2d5a4b;
+    color: #6a0415;
   }
 }
 
@@ -268,6 +268,7 @@ h2 {
   border-radius: 1rem;
   margin-bottom: 2rem;
   width: 100%;
+  resize: none;
 }
 
 .form__buttons {
