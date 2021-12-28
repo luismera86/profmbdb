@@ -41,6 +41,9 @@
                 }
                 
             }
+            a{
+                text-decoration: none;
+            }
             h2{
                 color: $color-rosa;
                 font-family: $letra-r;
@@ -51,6 +54,10 @@
             img{
                 width: 15rem;
                 border-radius: 1rem;
+            }
+            p{
+                text-decoration: none;
+                color: white;
             }
         }
     }

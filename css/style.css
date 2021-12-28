@@ -151,6 +151,10 @@ h2 {
   }
 }
 
+.main__box__secciones__cads a {
+  text-decoration: none;
+}
+
 .main__box__secciones__cads h2 {
   color: #EF7B8E;
   font-family: "Rammetto One", cursive;
@@ -162,6 +166,11 @@ h2 {
 .main__box__secciones__cads img {
   width: 15rem;
   border-radius: 1rem;
+}
+
+.main__box__secciones__cads p {
+  text-decoration: none;
+  color: white;
 }
 
 .main__contacto {
