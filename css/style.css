@@ -380,6 +380,10 @@ footer img:hover {
   margin-right: 1rem;
 }
 
+.header__box__titulo p {
+  margin-top: -0.8rem;
+}
+
 .nav-link {
   text-decoration: none;
   color: #EF7B8E !important;
