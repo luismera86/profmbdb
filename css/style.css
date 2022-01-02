@@ -1,14 +1,3 @@
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  min-height: 100vh;
-}
-
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,13 +136,9 @@ h2 {
   width: 15rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #2d5a4b;
 }
 
 @media (min-width: 1280px) {
-  .main__box__secciones__cads {
-    color: white;
-  }
   .main__box__secciones__cads:hover p {
     width: 15rem;
     font-family: "Poppins", sans-serif;
@@ -181,7 +166,13 @@ h2 {
 
 .main__box__secciones__cads p {
   text-decoration: none;
-  color: white;
+  color: #6a0415;
+}
+
+@media (min-width: 1280px) {
+  .main__box__secciones__cads p {
+    color: white;
+  }
 }
 
 .main__contacto {

@@ -28,9 +28,7 @@
             width: 15rem;
             font-family: $letra-p;
             font-weight: 600;
-            color: $color-texto-v;
             @media (min-width: 1280px) {
-                color: white;
                 &:hover{
                     p{
                         width: 15rem;
@@ -39,7 +37,6 @@
                         color: $color-texto-r;
                     }
                 }
-                
             }
             a{
                 text-decoration: none;
@@ -57,7 +54,10 @@
             }
             p{
                 text-decoration: none;
-                color: white;
+                color: $color-texto-r;
+                @media (min-width: 1280px){
+                    color: white;
+                }
             }
         }
     }
