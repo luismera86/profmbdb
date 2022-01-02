@@ -436,6 +436,10 @@ footer img:hover {
   font-weight: 600;
 }
 
+.main__quiensoy p a {
+  text-decoration: none;
+}
+
 .form__buttons__button {
   background-color: #EF7B8E;
   color: blanchedalmond;

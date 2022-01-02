@@ -21,5 +21,8 @@
         color: $color-texto-r;
         font-family: $letra-p;
         font-weight: 600;
+        a{
+            text-decoration: none;
+        }
     }
 }
